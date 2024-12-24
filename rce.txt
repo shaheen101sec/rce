@@ -1,1 +1,1 @@
-<?php system('cat /etc/passwd'); ?>
+<pre>system('cat /etc/passwd')</pre>
